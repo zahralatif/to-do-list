@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <title>To-do List</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="todo__container">
+        <h1>TODO</h1>
+        <form action="#">
+          <div class="todo__block current__block">
+            <i class="bx bx-circle todo__icon"></i>
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Add a new to-do..."
+            />
+            <!-- <i class='bx bxs-check-circle bx-tada' ></i> -->
+          </div>
+          <div class="todo__block__lists">
+            <!-- <div class="todo__block">
+              <i class="bx bxs-check-circle bx-tada todo__icon"></i>
+              <input
+                type="text"
+                name=""
+                id=""
+                value="Complete online JavaScript course"
+              /><i class="bx bx-x todo__icon"></i>
+            </div>
+            <div class="hrline"></div>
+            <div class="todo__block">
+              <i class="bx bx-circle todo__icon"></i>
+              <input type="text" name="" id="" value="Jog around the park 3x" />
+            </div> -->
+            <div class="hrline"></div>
+            <div class="todo__block todo__choices">
+              <p class="number__of__items"><span class="span">5</span> items left</p>
+              <ul>
+                <li><a href="index.html">All</a></li>
+                <li><a href="#">Active</a></li>
+                <li><a href="#">Completed</a></li>
+              </ul>
+              <p class="clear__done">Clear Completed</p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
